@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "./_site/scripts/" /* Redirect output structure to the directory. */
+    },
+    "exclude": [
+        "src/generator"
+    ]
+}

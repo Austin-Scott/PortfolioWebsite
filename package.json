@@ -1,0 +1,17 @@
+{
+  "name": "portfoliowebsite",
+  "version": "1.0.0",
+  "description": "My personal portfolio website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.generator.json && tsc -p tsconfig.site.json && node ./_generator/generator/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Scott",
+  "license": "MIT",
+  "dependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^13.1.6",
+    "fs-extra": "^8.1.0"
+  }
+}

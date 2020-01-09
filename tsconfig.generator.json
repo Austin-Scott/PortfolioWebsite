@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "./_generator/", /* Redirect output structure to the directory. */
+        "sourceMap": true /* Generates corresponding '.map' file. */
+    },
+    "exclude": [
+        "src/site"
+    ]
+}
