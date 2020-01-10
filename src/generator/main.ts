@@ -3,9 +3,9 @@ import path from 'path'
 import pug from 'pug'
 import { loadModel } from './types/Model'
 
-function buildSite(): void {
+async function buildSite() {
     console.log('Loading "content/main.json"...')
-    let model = loadModel('./content/main.json')
+    let model = await loadModel('./content/main.json')
 
     console.log('Rendering views...')
     model.views.forEach(view => {
