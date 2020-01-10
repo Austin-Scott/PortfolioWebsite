@@ -39,8 +39,8 @@ function getRepoDetails(repo: Repository): Promise<RepoDetails> {
 }
 
 class GitHubRepo {
-    private repoOwner: string | null = null
-    private repoName: string | null = null
+    private repoOwner: string = ''
+    private repoName: string = ''
     private repoDetails: RepoDetails | null = null
     constructor(private githubURL: string) {
         let githubMatcher = githubURL.match(/https:\/\/github\.com\/(.+)\/(.+)/)
@@ -57,16 +57,29 @@ class GitHubRepo {
             console.log(error)
         }
     }
-    getDetails(): RepoDetails | null {
-        return this.repoDetails
+    getDetails(): RepoDetails {
+        if (this.repoDetails) {
+            return this.repoDetails
+        } else {
+            console.log('Warning: getDetails() was called before being ready')
+            return {
+                created_at: '',
+                updated_at: '',
+                description: '',
+                topics: [],
+                forks_count: 0,
+                stargazers_count: 0,
+                watchers_count: 0
+            }
+        }
     }
     getURL(): string {
         return this.githubURL
     }
-    getName(): string | null {
+    getName(): string {
         return this.repoName
     }
-    getOwner(): string | null {
+    getOwner(): string {
         return this.repoOwner
     }
 }

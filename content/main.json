@@ -1,6 +1,7 @@
 {
     "views": [
-        "index.pug"
+        "index.pug",
+        "projects.pug"
     ],
     "projects": "./projects/projects.json",
     "posts": "./posts/posts.json",

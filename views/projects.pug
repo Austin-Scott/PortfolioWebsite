@@ -1,0 +1,11 @@
+html
+  head
+  body
+    each project in model.projects
+      p Title: #{project.title}
+      if project.githubRepo
+        p GitHub description: #{project.githubRepo.getDetails().description}
+      if project.about
+        p !{project.about.toHTML()}
+      hr
+    p Page rendered at: #{model.lastRenderedOn}

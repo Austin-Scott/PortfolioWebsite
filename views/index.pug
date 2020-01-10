@@ -3,11 +3,3 @@ html
   body 
     p Hello World! Rendered on: #{model.lastRenderedOn}
     p !{model.aboutMe.toHTML()}
-    hr
-    each project in model.projects
-      p
-        h1 Title: #{project.title}
-        if project.about
-          p !{project.about.toHTML()}
-        if project.githubRepo
-          p #{project.githubRepo.getDetails().description}
