@@ -1,0 +1,1 @@
+Here is where all images to be used on the site should be placed.
