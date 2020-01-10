@@ -3,5 +3,6 @@
         "index.pug"
     ],
     "projects": "./projects/projects.json",
-    "posts": "./posts/posts.json"
+    "posts": "./posts/posts.json",
+    "aboutMe": "./about.md"
 }
