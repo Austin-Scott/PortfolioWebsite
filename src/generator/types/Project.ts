@@ -10,6 +10,8 @@ export interface Project {
     githubRepo?: GitHubRepo
     about?: MarkdownDocument
     screenshots: Array<string>
+    languages: Array<string>
+    frameworks: Array<string>
 }
 
 interface RepoDetails {
@@ -89,6 +91,8 @@ interface ProjectJSON {
     about?: string
     githubRepo?: string
     screenshots?: Array<string>
+    languages?: Array<string>
+    frameworks?: Array<string>
 }
 
 async function loadProject(filename: string): Promise<Project> {
@@ -102,16 +106,17 @@ async function loadProject(filename: string): Promise<Project> {
         githubRepo = new GitHubRepo(projectJSON.githubRepo)
         await githubRepo.initializeRepoDetails()
     }
-    let screenshots: Array<string> = []
-    if (projectJSON.screenshots) {
-        screenshots = projectJSON.screenshots
-    }
+    let screenshots: Array<string> = projectJSON.screenshots || []
+    let languages: Array<string> = projectJSON.languages || []
+    let frameworks: Array<string> = projectJSON.frameworks || []
 
     return {
         title: projectJSON.title,
         githubRepo: githubRepo,
         about: about,
-        screenshots: screenshots
+        screenshots: screenshots,
+        languages: languages,
+        frameworks: frameworks
     }
 
 }
