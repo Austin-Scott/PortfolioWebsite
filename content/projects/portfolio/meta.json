@@ -1,0 +1,12 @@
+{
+    "title": "Portfolio Website",
+    "githubRepo": "https://github.com/Austin-Scott/PortfolioWebsite",
+    "languages": [
+        "TypeScript",
+        "Pug"
+    ],
+    "frameworks": [
+        "Node.js"
+    ],
+    "about": "./about.md"
+}

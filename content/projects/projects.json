@@ -1,5 +1,9 @@
 {
     "projects": [
-        "./test.json"
+        "./portfolio/meta.json",
+        "./synopsis-fy/meta.json",
+        "./mnemosyne/meta.json",
+        "./webmajor/meta.json",
+        "./major/meta.json"
     ]
 }

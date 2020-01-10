@@ -1,0 +1,1 @@
+[Major mnemonic system](https://en.wikipedia.org/wiki/Mnemonic_major_system) digit to mnemonic convertor that runs inside of your web browser.

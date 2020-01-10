@@ -1,0 +1,13 @@
+{
+    "title": "Mnemosyne",
+    "githubRepo": "https://github.com/Austin-Scott/Mnemosyne",
+    "languages": [
+        "JavaScript"
+    ],
+    "frameworks": [
+        "Node.js",
+        "Express",
+        "Bootstrap"
+    ],
+    "about": "./about.md"
+}

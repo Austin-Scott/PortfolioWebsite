@@ -1,0 +1,11 @@
+{
+    "title": "Synopsis-fy",
+    "githubRepo": "https://github.com/Austin-Scott/synopsis-fy",
+    "languages": [
+        "JavaScript"
+    ],
+    "frameworks": [
+        "Node.js"
+    ],
+    "about": "./about.md"
+}

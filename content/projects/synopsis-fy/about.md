@@ -1,0 +1,1 @@
+A Discord bot that responds to Anime titles with their synopses from [MyAnimeList](https://myanimelist.net/). Written for the **UW-Stout An-Bu anime club**.

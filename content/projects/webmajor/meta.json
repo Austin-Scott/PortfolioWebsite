@@ -1,0 +1,12 @@
+{
+    "title": "Web Major",
+    "githubRepo": "https://github.com/Austin-Scott/WebMajor",
+    "languages": [
+        "JavaScript",
+        "HTML"
+    ],
+    "frameworks": [
+        "Bootstrap"
+    ],
+    "about": "./about.md"
+}

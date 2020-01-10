@@ -1,0 +1,1 @@
+Developing this portfolio website was one of my projects. I wanted to create a website where the data displayed on the website was completly seperated from the code drawing the website. This way, if I ever want to update how the site appears I can do so without rewritting all of the content on the site.

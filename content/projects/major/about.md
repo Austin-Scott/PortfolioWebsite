@@ -1,0 +1,3 @@
+Psycholinguistic tool for converting strings of digits into the major system.
+Uses the [Carnegie Mellon University Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) for word pronunciations and the [Reilly Noun Imageability Dataset](https://www.reilly-coglab.com/s/Reilly-Noun-Imageability-Dataset-2013.xls) from Jamie Reilly's [doctoral dissertation](https://www.reilly-coglab.com/s/Reilly-Kean-2007-Formal-Distinctiveness-of-High-and-Low-Imageability-Nouns-COGNITIVE-SCIENCE.pdf) for word bank. 
+The algorithm minimizes the total number of words outputted and maximizes the Reilly imaginability score for each word choice.

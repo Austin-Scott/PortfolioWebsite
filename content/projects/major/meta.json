@@ -1,0 +1,9 @@
+{
+    "title": "Major",
+    "githubRepo": "https://github.com/Austin-Scott/major",
+    "languages": [
+        "C++"
+    ],
+    "frameworks": [],
+    "about": "./about.md"
+}
