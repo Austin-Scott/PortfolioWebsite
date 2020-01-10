@@ -3,6 +3,8 @@ html
   body
     each project in model.projects
       p Title: #{project.title}
+      p Languages: #{project.languages.join(', ')}
+      p Frameworks: #{project.frameworks.join(', ')}
       if project.githubRepo
         p GitHub description: #{project.githubRepo.getDetails().description}
       if project.about
