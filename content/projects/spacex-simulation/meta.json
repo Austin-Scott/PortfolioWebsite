@@ -1,0 +1,12 @@
+{
+    "title": "SpaceX Database Simulation",
+    "githubRepo": "https://github.com/Austin-Scott/SpaceX-Simulation",
+    "languages": [
+        "C++",
+        "SQL"
+    ],
+    "frameworks": [
+        "MySQL"
+    ],
+    "about": "./about.md"
+}

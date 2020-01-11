@@ -1,0 +1,11 @@
+{
+    "title": "GPS Running/Cycling Heat Map",
+    "githubRepo": "https://github.com/Austin-Scott/HeatMap",
+    "languages": [
+        "C++"
+    ],
+    "frameworks": [
+        "Nana GUI"
+    ],
+    "about": "./about.md"
+}

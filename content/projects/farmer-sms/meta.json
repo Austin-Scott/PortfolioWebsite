@@ -1,12 +1,13 @@
 {
-    "title": "Synopsis-fy",
-    "githubRepo": "https://github.com/Austin-Scott/synopsis-fy",
+    "title": "Farmer SMS",
+    "githubRepo": "https://github.com/kmui2/minnehacks",
     "languages": [
         "JavaScript"
     ],
     "frameworks": [
         "Node.js",
-        "Discord"
+        "Express",
+        "Twilio"
     ],
     "about": "./about.md"
 }

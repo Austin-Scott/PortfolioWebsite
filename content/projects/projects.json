@@ -4,6 +4,12 @@
         "./synopsis-fy/meta.json",
         "./mnemosyne/meta.json",
         "./webmajor/meta.json",
-        "./major/meta.json"
+        "./genetic-steering/meta.json",
+        "./gps-heatmap/meta.json",
+        "./steganography/meta.json",
+        "./spacex-simulation/meta.json",
+        "./farmer-sms/meta.json",
+        "./wifi-heatmap/meta.json",
+        "./pi-calculator/meta.json"
     ]
 }

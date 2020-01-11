@@ -1,0 +1,11 @@
+{
+    "title": "Genetic Steering",
+    "githubRepo": "https://github.com/Austin-Scott/Genetic-Steering",
+    "languages": [
+        "C#"
+    ],
+    "frameworks": [
+        "Unity"
+    ],
+    "about": "./about.md"
+}

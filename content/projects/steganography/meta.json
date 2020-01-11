@@ -1,0 +1,10 @@
+{
+    "title": "Steganography Encoder/Decoder",
+    "githubRepo": "https://github.com/Austin-Scott/steganography",
+    "languages": [
+        "JavaScript",
+        "HTML"
+    ],
+    "frameworks": [],
+    "about": "./about.md"
+}

@@ -1,0 +1,1 @@
+Android application that lets you use your device's GPS and WiFi antenna to create a grid-based heatmap of all wireless networks within range. Can be used to find network dead zones. 

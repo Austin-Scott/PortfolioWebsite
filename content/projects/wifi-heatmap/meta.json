@@ -1,0 +1,12 @@
+{
+    "title": "WiFi Strength Heatmapper",
+    "githubRepo": "https://github.com/wifiheatmap/wifiheatmap",
+    "languages": [
+        "Kotlin"
+    ],
+    "frameworks": [
+        "Android",
+        "Room Database"
+    ],
+    "about": "./about.md"
+}

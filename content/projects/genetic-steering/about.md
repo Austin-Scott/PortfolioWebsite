@@ -1,0 +1,1 @@
+By combining [Craig Reynolds’ Steering Behaviors](https://en.wikipedia.org/wiki/Boids) with the [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) I created an artificial life simulation where Humans and Zombies fight for genetic superiority. 

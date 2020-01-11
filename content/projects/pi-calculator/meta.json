@@ -1,0 +1,11 @@
+{
+    "title": "Pi Calculators",
+    "githubRepo": "https://github.com/Austin-Scott/PiCalculator",
+    "languages": [
+        "C++"
+    ],
+    "frameworks": [
+        "MPIR"
+    ],
+    "about": "./about.md"
+}

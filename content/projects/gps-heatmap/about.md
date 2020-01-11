@@ -1,0 +1,1 @@
+Show your friends and family what you've accomplished on foot or by bike by creating a Heat Map summary of all of your activities on Strava, Garmin Connect, or other GPS fitness sites! Popular GPS activity file types such as `.fit`, `.tcx`, and `.gpx` are all supported!
