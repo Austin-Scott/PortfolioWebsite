@@ -8,12 +8,17 @@ interface Model {
     aboutMe?: MarkdownDocument
     posts: Array<Post>
     projects: Array<Project>
-    views: Array<string>
+    views: Array<View>
     lastRenderedOn: Date
 }
 
+interface View {
+    file: string
+    title: string
+}
+
 interface MainJSON {
-    views: Array<string>
+    views: Array<[string, string]>
     projects?: string
     posts?: string
     aboutMe?: string
@@ -34,7 +39,12 @@ export async function loadModel(filename: string): Promise<Model> {
         aboutMe: aboutMe,
         posts: [],
         projects: projects,
-        views: mainJSON.views,
+        views: mainJSON.views.map(view => {
+            return {
+                file: view[0],
+                title: view[1]
+            }
+        }),
         lastRenderedOn: new Date()
     }
 }

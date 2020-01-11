@@ -1,5 +1,5 @@
-html
-  head
-  body 
-    p Hello World! Rendered on: #{model.lastRenderedOn}
-    p !{model.aboutMe.toHTML()}
+extends layouts/layout.pug
+
+block content
+  p Hello World! Rendered on: #{model.lastRenderedOn}
+  p !{model.aboutMe.toHTML()}

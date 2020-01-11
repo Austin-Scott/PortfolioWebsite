@@ -1,13 +1,13 @@
-html
-  head
-  body
-    each project in model.projects
-      p Title: #{project.title}
-      p Languages: #{project.languages.join(', ')}
-      p Frameworks: #{project.frameworks.join(', ')}
-      if project.githubRepo
-        p GitHub description: #{project.githubRepo.getDetails().description}
-      if project.about
-        p !{project.about.toHTML()}
-      hr
-    p Page rendered at: #{model.lastRenderedOn}
+extends layouts/layout.pug
+
+block content
+  each project in model.projects
+    p Title: #{project.title}
+    p Languages: #{project.languages.join(', ')}
+    p Frameworks: #{project.frameworks.join(', ')}
+    if project.githubRepo
+      p GitHub description: #{project.githubRepo.getDetails().description}
+    if project.about
+      p !{project.about.toHTML()}
+    hr
+  p Page rendered at: #{model.lastRenderedOn}

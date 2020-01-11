@@ -9,9 +9,9 @@ async function buildSite() {
 
     console.log('Rendering views...')
     model.views.forEach(view => {
-        const renderFunction = pug.compileFile(path.join('./views', view))
-        const renderedHTML = renderFunction({ model: model })
-        fs.writeFileSync(path.join('./_site', view.replace('.pug', '.html')), renderedHTML, { encoding: 'utf8' })
+        const renderFunction = pug.compileFile(path.join('./views', view.file))
+        const renderedHTML = renderFunction({ model: model, view: view.file.replace('.pug', '') })
+        fs.writeFileSync(path.join('./_site', view.file.replace('.pug', '.html')), renderedHTML, { encoding: 'utf8' })
     })
 
     console.log('Copying static files...')
