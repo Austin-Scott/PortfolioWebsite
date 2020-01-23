@@ -1,4 +1,5 @@
 doctype html
+<!-- Machine generated source. View actual source at: https://github.com/Austin-Scott/PortfolioWebsite -->
 html(lang='en')
   head
     title Austin's Portfolio
@@ -18,27 +19,14 @@ html(lang='en')
             a(class=`nav-item nav-link${viewName == view ? ' active' : ''}`, href=(viewName == view ? '#' : `${viewName}.html`)) #{viewFile.title}
     div(id='page-content')
       div(class='container')
+        br
         block content
           p This is the default content.
     block scripts
       script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js', integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n', crossorigin='anonymous')
       script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
       script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6', crossorigin='anonymous')
-    footer(class='page-footer bg-dark text-white-50', id='sticky-footer')
-      div(class='container')
-        div(class='row')
-          div(class='col-sm py-5')
-            a(href='#')
-              i(class='fa fa-envelope fa-lg white-text fa-2x')
-          div(class='col-sm py-5')
-            a(href='#')
-              i(class='fa fa-phone fa-lg white-text fa-2x')
-          div(class='col-sm py-5')
-            a(href='#')
-              i(class='fa fa-linkedin fa-lg white-text fa-2x')
-          div(class='col-sm py-5')
-            a(href='#')
-              i(class='fa fa-github fa-lg white-text fa-2x')
-        div(class='row')
-          div(class='col-md')
-            p Page rendered at: #{model.lastRenderedOn}
+    footer(class='page-footer bg-dark text-white-50 text-center', id='sticky-footer')
+      a(href='https://github.com/Austin-Scott/PortfolioWebsite', target='_blank') View this website's source on GitHub!
+      br
+      p Last updated on: #{model.lastRenderedOn}

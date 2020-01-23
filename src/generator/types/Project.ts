@@ -9,6 +9,7 @@ export interface Project {
     title: string
     githubRepo?: GitHubRepo
     about?: MarkdownDocument
+    websiteURL?: string
     screenshots: Array<string>
     languages: Array<string>
     frameworks: Array<string>
@@ -89,6 +90,7 @@ class GitHubRepo {
 interface ProjectJSON {
     title: string
     about?: string
+    websiteURL?: string
     githubRepo?: string
     screenshots?: Array<string>
     languages?: Array<string>
@@ -109,11 +111,13 @@ async function loadProject(filename: string): Promise<Project> {
     let screenshots: Array<string> = projectJSON.screenshots || []
     let languages: Array<string> = projectJSON.languages || []
     let frameworks: Array<string> = projectJSON.frameworks || []
+    let websiteURL: string | undefined = projectJSON.websiteURL
 
     return {
         title: projectJSON.title,
         githubRepo: githubRepo,
         about: about,
+        websiteURL: websiteURL,
         screenshots: screenshots,
         languages: languages,
         frameworks: frameworks

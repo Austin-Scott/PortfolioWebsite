@@ -8,5 +8,6 @@
     "frameworks": [
         "Bootstrap"
     ],
-    "about": "./about.md"
+    "about": "./about.md",
+    "websiteURL": "https://austin-scott.github.io/WebMajor/"
 }
