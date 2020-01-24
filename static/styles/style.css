@@ -10,3 +10,7 @@ body {
 #sticky-footer {
     flex-shrink: none;
 }
+
+.bottom-buffer {
+    margin-bottom: 20px;
+}
