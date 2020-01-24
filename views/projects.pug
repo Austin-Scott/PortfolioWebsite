@@ -5,7 +5,7 @@ block content
     each project in model.projects.sort((a, b) => { if(!a.githubRepo) return 1; if(!b.githubRepo) return -1; let dateA = a.githubRepo.getDetails().created_at; let dateB = b.githubRepo.getDetails().created_at; if(dateA == dateB) { return 0; } else if(dateA < dateB) { return 1; } else { return -1; }})
       - let hasScreenshots = project.screenshots.length > 0
       div(class=`col-12 col-md-${hasScreenshots ? '12' : '6'} col-lg-${hasScreenshots ? '8' : '4'} bottom-buffer`)
-        div(class='card')
+        div(class='card bg-light')
           div(class=`${hasScreenshots ? 'row h-100 no-gutters' : ''}`)
             div(class=`${hasScreenshots ? 'col-md-6' : ''}`)
               div(class='card-body')
@@ -20,11 +20,6 @@ block content
                     span(class='badge badge-pill badge-secondary') #{framework}
                 if project.about
                   p(class='card-text') !{project.about.toHTML()}
-                if project.websiteURL
-                  p
-                    a(href=project.websiteURL, class='btn btn-success', target='_blank') Use online
-                if project.githubRepo
-                  a(href=project.githubRepo.getURL(), class='btn btn-primary', target='_blank') View on GitHub
             if hasScreenshots
               div(class='col-md-6 my-auto')
                 - let carouselID = `carousel${project.title.replace(/\W/g, '')}`
@@ -42,3 +37,10 @@ block content
                   a(class='carousel-control-next', href=`#${carouselID}`, role='button', data-slide='next')
                     span(class='carousel-control-next-icon', aria-hidden='true')
                     span(class='sr-only') Next
+          if project.websiteURL || project.githubRepo
+            div(class='card-footer')
+              if project.websiteURL
+                p
+                  a(href=project.websiteURL, class='btn btn-success', target='_blank') Use online
+              if project.githubRepo
+                a(href=project.githubRepo.getURL(), class='btn btn-primary', target='_blank') View on GitHub
