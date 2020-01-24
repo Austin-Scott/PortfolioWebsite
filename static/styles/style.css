@@ -19,6 +19,9 @@ body {
     .custom-small-height {
         height: 300px;
     }
+    .greeter {
+        text-align: center;
+    }
 }
 
 @media (min-width: 769px) {

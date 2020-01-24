@@ -1,7 +1,9 @@
 {
     "views": [
         [ "index.pug", "Home" ],
-        [ "projects.pug", "Project Portfolio" ]
+        [ "resume.pug", "Resume" ],
+        [ "projects.pug", "Project Portfolio" ],
+        [ "contact.pug", "Contact Me" ]
     ],
     "projects": "./projects/projects.json",
     "posts": "./posts/posts.json",

@@ -2,6 +2,12 @@ doctype html
 <!-- Machine generated source. View actual source at: https://github.com/Austin-Scott/PortfolioWebsite -->
 html(lang='en')
   head
+    script(async src='https://www.googletagmanager.com/gtag/js?id=UA-37362619-4')
+    script
+      | window.dataLayer = window.dataLayer || [];
+      | function gtag(){dataLayer.push(arguments);}
+      | gtag('js', new Date());
+      | gtag('config', 'UA-37362619-4');
     title Austin's Portfolio
     include ../includes/meta.pug
     link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh', crossorigin='anonymous')
@@ -9,7 +15,8 @@ html(lang='en')
     link(rel='stylesheet', href='styles/style.css')
   body(class='d-flex flex-column')
     nav(class='navbar navbar-expand-md navbar-dark bg-dark')
-      a(class='navbar-brand', href='#') Austin Scott
+      a(class='navbar-brand', href='#')
+        img(src='./images/signature.png', alt='Austin Scott', class='img-fluid masthead-brand')
       button(class='navbar-toggler', type='button', data-toggle='collapse', data-target='#navbarNavAltMarkup', aria-controls='navbarNavAltMarkup', aria-expanded='false', aria-label='Toggle navigation')  
         span(class='navbar-toggler-icon')
       div(class='collapse navbar-collapse', id='navbarNavAltMarkup')
@@ -18,8 +25,9 @@ html(lang='en')
             - let viewName = viewFile.file.replace('.pug', '')
             a(class=`nav-item nav-link${viewName == view ? ' active' : ''}`, href=(viewName == view ? '#' : `${viewName}.html`)) #{viewFile.title}
     div(id='page-content')
-      div(class='container')
+      block prequel
         br
+      div(class='container')
         block content
           p This is the default content.
     block scripts

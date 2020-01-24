@@ -1,9 +1,1 @@
-### This is an "About Me" page written in Markdown
-
-All markdown features should be working.
-
-  * Item one
-  * Item two
-  * Item three
-
-This should have a link to [Google](https://google.com)
+I'm a student at the ***University of Wisconsin Stout*** majoring in **Computer Science** with a concentration in Mobile Applications. I am also minoring in **Mathematics**. I am expected to graduation soon in __Spring 2020__. Some of my hobbies include working on side-projects in my free time on [GitHub](https://github.com/Austin-Scott), staying in shape on [Strava](https://www.strava.com/athletes/austinscott), and keeping up to date with the latest Japanese pop culture. 

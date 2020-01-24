@@ -1,4 +1,16 @@
 extends layouts/layout.pug
 
+block prequel
+  div(class='jumbotron jumbotron-fluid')
+    div(class='container')
+      div(class='row h-100')
+        div(class='col-12 col-md-4 text-center')
+          img(src='./images/profile.jpg', alt='Profile Picture', class='img-fluid rounded-circle')
+        div(class='col-12 col-md-8 my-auto')
+          h1(class='display-4 greeter') Hi there!
+          p(class='lead greeter') I'm Austin Scott. Welcome to my online portfolio!
+      hr(class='my-4')
+      p !{model.aboutMe.toHTML()}
+
 block content
-  p !{model.aboutMe.toHTML()}
+  h3 Blog posts coming soon here!
