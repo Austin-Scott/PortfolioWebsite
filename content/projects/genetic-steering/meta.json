@@ -8,8 +8,8 @@
         "Unity"
     ],
     "screenshots": [
-        "genetic-steering-overview.png",
-        "genetic-forces.png"
+        "g-steering-overview.png",
+        "g-forces.png"
     ],
     "about": "./about.md"
 }
