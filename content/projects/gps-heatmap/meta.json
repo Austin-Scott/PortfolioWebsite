@@ -7,5 +7,9 @@
     "frameworks": [
         "Nana GUI"
     ],
+    "screenshots": [
+        "GPS-heatmap.png",
+        "GPS-interface.png"
+    ],
     "about": "./about.md"
 }

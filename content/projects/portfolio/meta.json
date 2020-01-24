@@ -8,10 +8,5 @@
     "frameworks": [
         "Node.js"
     ],
-    "screenshots": [
-        "one.png",
-        "two.png",
-        "three.png"
-    ],
     "about": "./about.md"
 }

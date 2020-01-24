@@ -7,5 +7,9 @@
     "frameworks": [
         "Unity"
     ],
+    "screenshots": [
+        "genetic-steering-overview.png",
+        "genetic-forces.png"
+    ],
     "about": "./about.md"
 }

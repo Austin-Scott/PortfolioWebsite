@@ -8,5 +8,9 @@
         "Android",
         "Room Database"
     ],
+    "screenshots": [
+        "wifi-heatmap1.jpg",
+        "wifi-heatmap2.jpg"
+    ],
     "about": "./about.md"
 }
