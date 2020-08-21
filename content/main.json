@@ -5,6 +5,5 @@
         [ "projects.pug", "Project Portfolio" ]
     ],
     "projects": "./projects/projects.json",
-    "posts": "./posts/posts.json",
     "aboutMe": "./about.md"
 }

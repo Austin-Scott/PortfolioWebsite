@@ -1,4 +1,3 @@
-import { Post } from "./Post"
 import { Project, loadProjects } from "./Project"
 import { MarkdownDocument } from "./MarkdownDocument"
 import fs from 'fs-extra'
@@ -6,7 +5,6 @@ import path from 'path'
 
 interface Model {
     aboutMe?: MarkdownDocument
-    posts: Array<Post>
     projects: Array<Project>
     views: Array<View>
     lastRenderedOn: Date
@@ -37,7 +35,6 @@ export async function loadModel(filename: string): Promise<Model> {
 
     return {
         aboutMe: aboutMe,
-        posts: [],
         projects: projects,
         views: mainJSON.views.map(view => {
             return {
