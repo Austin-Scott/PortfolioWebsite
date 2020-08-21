@@ -6,6 +6,7 @@
         "Pug"
     ],
     "frameworks": [
+        "Bootstrap",
         "Node.js"
     ],
     "about": "./about.md"

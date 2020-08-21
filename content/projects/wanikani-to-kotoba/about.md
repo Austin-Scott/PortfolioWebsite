@@ -1,0 +1,1 @@
+A script that uses the [WaniKani api](https://docs.api.wanikani.com/) to export your account's new vocabulary and leeches into CSV files to be then imported into [Kotoba](https://kotobaweb.com/) for further review.

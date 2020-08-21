@@ -10,6 +10,7 @@
         "./spacex-simulation/meta.json",
         "./farmer-sms/meta.json",
         "./wifi-heatmap/meta.json",
-        "./pi-calculator/meta.json"
+        "./pi-calculator/meta.json",
+        "./wanikani-to-kotoba/meta.json"
     ]
 }

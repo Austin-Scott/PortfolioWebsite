@@ -1,0 +1,11 @@
+{
+    "title": "WaniKani exporter",
+    "githubRepo": "https://github.com/Austin-Scott/WaniKani",
+    "languages": [
+        "TypeScript"
+    ],
+    "frameworks": [
+        "Node.js"
+    ],
+    "about": "./about.md"
+}
