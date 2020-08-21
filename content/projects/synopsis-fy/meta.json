@@ -2,6 +2,7 @@
     "title": "Synopsis-fy",
     "githubRepo": "https://github.com/Austin-Scott/synopsis-fy",
     "languages": [
+        "TypeScript",
         "JavaScript"
     ],
     "frameworks": [

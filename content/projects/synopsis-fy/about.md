@@ -1,1 +1,1 @@
-A Discord bot that responds to Anime titles with their synopses from [MyAnimeList](https://myanimelist.net/). Written for the **UW-Stout An-Bu anime club**.
+A Discord bot that primarily displays synopses of Anime/Manga/Light Novel titles from [MyAnimeList](https://myanimelist.net/). It can also serve as a recommendation engine when a club member is looking for a new item to watch/read. Originally written in JavaScript and then later completely rewritten in TypeScript. Created for the **UW-Stout An-Bu anime club**.
