@@ -4,11 +4,11 @@ block content
   div(class='row')
     each project in model.projects.sort((a, b) => { if(!a.githubRepo) return 1; if(!b.githubRepo) return -1; let dateA = a.githubRepo.getDetails().created_at; let dateB = b.githubRepo.getDetails().created_at; if(dateA == dateB) { return 0; } else if(dateA < dateB) { return 1; } else { return -1; }})
       - let hasScreenshots = project.screenshots.length > 0
-      div(class=`col-12 col-md-${hasScreenshots ? '12' : '6'} col-lg-${hasScreenshots ? '8' : '4'} bottom-buffer`)
+      div(class=`col-12 d-flex col-md-${hasScreenshots ? '12' : '6'} col-lg-${hasScreenshots ? '8' : '4'} bottom-buffer`)
         div(class='card bg-light')
           div(class=`${hasScreenshots ? 'row h-100 no-gutters' : ''}`)
             div(class=`${hasScreenshots ? 'col-md-6' : ''}`)
-              div(class='card-body')
+              div(class='card-body flex-fill')
                 h5(class='card-title') #{project.title}
                 if project.githubRepo
                   h6(class='card-subtitle mb-2 text-muted') #{'Updated on: ' + project.githubRepo.getDetails().updated_at.substr(0, 10)}
@@ -38,7 +38,7 @@ block content
                     span(class='carousel-control-next-icon', aria-hidden='true')
                     span(class='sr-only') Next
           if project.websiteURL || project.githubRepo
-            div(class='card-footer')
+            div(class='card-footer mt-auto')
               if project.websiteURL
                 p
                   a(href=project.websiteURL, class='btn btn-success', target='_blank') Use online
