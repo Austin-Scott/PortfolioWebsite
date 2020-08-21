@@ -1,5 +1,8 @@
 extends layouts/layout.pug
 
+block append scripts
+  link(rel='stylesheet', href='https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css')
+
 block prequel
   div(class='jumbotron jumbotron-fluid')
     div(class='container')
@@ -13,4 +16,10 @@ block prequel
       p !{model.aboutMe.toHTML()}
 
 block content
-  h3 Blog posts coming soon here!
+  div(class='github-heatmap')
+    div(class='d-flex justify-content-center')
+      div(class='spinner-border', role='status')
+        span(class='sr-only') Loading...
+  script(src='https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js')
+  script
+    | GitHubCalendar('.github-heatmap', 'Austin-Scott', { responsive: true })
