@@ -1,0 +1,87 @@
+{
+    "sections": [
+        {
+            "name": "EDUCATION",
+            "content": [
+                {
+                    "boldTitle": "UNIVERSITY OF WISCONSIN STOUT",
+                    "normalTitle": ", MENOMONIE WISCONSIN",
+                    "lightTitle": "GRADUATED SPRING 2020, GPA 3.57, IN-MAJOR GPA 3.60",
+                    "description": "Bachelor of Science in Computer Science with math minor. "
+                }
+            ]
+        },
+        {
+            "name": "HONORS AND AWARDS",
+            "content": [
+                {
+                    "boldTitle": "GRADUATED WITH HONORS",
+                    "normalTitle": ", CUM LAUDE",
+                    "lightTitle": "SPRING 2020"
+                },
+                {
+                    "boldTitle": "CHANCELLOR’S AWARD FOR ACADEMIC EXCELLENCE",
+                    "lightTitle": "FALL 2016, SPRING 2017, FALL 2017"
+                }
+            ]
+        },
+        {
+            "name": "EXPERIENCE",
+            "content": [
+                {
+                    "boldTitle": "SOFTWARE ENGINEER INTERN",
+                    "normalTitle": " POINTCLICKCARE",
+                    "lightTitle": "JUNE 2019 - AUGUST 2019",
+                    "description": "Here is where I am going to describe what I did and learned during my internship experience with PointClickCare. Here is some additional text just to increase the length of this example text here."
+                }
+            ]
+        },
+        {
+            "name": "TECHNICAL SKILLS",
+            "content": [
+                {
+                    "boldTitle": "LANGUAGES",
+                    "description": "C++, TypeScript, JavaScript, C, Kotlin, Java, Swift, HTML/CSS, C#, Rust, Python, PHP"
+                },
+                {
+                    "boldTitle": "TOOLS",
+                    "description": "React, Node.js, Android, iOS, AWS, Unity, Express, Linux, NumPy, jQuery, Bootstrap, Git, Docker"
+                }
+            ]
+        },
+        {
+            "name": "INVOLVEMENT",
+            "content": [
+                {
+                    "boldTitle": "APPLIED MATH AND COMPUTER SCIENCE CLUB",
+                    "lightTitle": "SEPTEMBER 2017 - FEBRUARY 2020"
+                },
+                {
+                    "boldTitle": "MAJOR LEAGUE HACKING",
+                    "normalTitle": " MINNEHACK",
+                    "lightTitle": "FEBRUARY 2019, FEBRUARY 2020"
+                }
+            ]
+        },
+        {
+            "name": "ADDITIONAL EXPERIENCE",
+            "content": [
+                {
+                    "boldTitle": "RECEIVING ASSOCIATE",
+                    "normalTitle": " FLEET FARM",
+                    "lightTitle": "JULY 2018 - MAY 2019"
+                },
+                {
+                    "boldTitle": "UNIVERSITY DINING SERVICE",
+                    "normalTitle": " UW-STOUT COMMONS",
+                    "lightTitle": "SEPTEMBER 2017 - DECEMBER 2017"
+                },
+                {
+                    "boldTitle": "PACKAGE HANDLER",
+                    "normalTitle": " FEDERAL EXPRESS",
+                    "lightTitle": "AUGUST 2016 - JANUARY 2017"
+                }
+            ]
+        }
+    ]
+}

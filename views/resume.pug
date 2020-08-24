@@ -1,15 +1,23 @@
 extends layouts/layout.pug
 
 block content
-  div(class='row')
-    div(class='col-12 d-flex col-md-2 col-lg-2 justify-content-md-end justify-content-lg-end justify-content-xl-end') 
-      div
-        div(class='border-right pr-1', style='font-family: \'Libre Franklin\'; color: #5c760a') EDUCATION
-    div(class='col-12 d-flex col-md-10 col-lg-10')
-      div
-        p(style='margin: 0')
-          span(class="font-weight-bold") UNIVERSITY OF WISCONSIN-STOUT
-          span(class="font-weight-normal") , MENOMONIE WISCONSIN
-        p(style='margin: 0')
-          span(class="font-weight-light") GRADUATED SPRING 2020, GPA 3.57, IN-MAJOR GPA 3.60
-        p Bachelor of Science in Computer Science with math minor.
+  each section in model.resume.sections
+    div(class='row mb-4')
+      div(class='col-12 d-flex col-md-2 col-lg-2 justify-content-md-end justify-content-lg-end justify-content-xl-end') 
+        div
+          div(class='border-right pr-1 text-sm-left text-md-right text-lg-right text-xl-right', style='font-family: \'Libre Franklin\'; color: #5c760a') #{section.name}
+      div(class='col-12 d-flex col-md-10 col-lg-10')
+        div
+          each entry in section.content
+            div
+              if entry.boldTitle || entry.normalTitle
+                p(style='margin: 0')
+                  if entry.boldTitle
+                    span(class='font-weight-bold') #{entry.boldTitle}
+                  if entry.normalTitle
+                    span(class='font-weight-normal') #{entry.normalTitle}
+              if entry.lightTitle
+                p(style='margin: 0')
+                  span(class='font-weight-light') #{entry.lightTitle}
+              if entry.description
+                p(style='margin: 0') #{entry.description}

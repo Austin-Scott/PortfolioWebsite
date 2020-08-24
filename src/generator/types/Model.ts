@@ -1,4 +1,5 @@
 import { Project, loadProjects } from "./Project"
+import { Resume, loadResume } from "./Resume"
 import { MarkdownDocument } from "./MarkdownDocument"
 import fs from 'fs-extra'
 import path from 'path'
@@ -6,6 +7,7 @@ import path from 'path'
 interface Model {
     aboutMe?: MarkdownDocument
     projects: Array<Project>
+    resume: Resume
     views: Array<View>
     lastRenderedOn: Date
 }
@@ -20,6 +22,7 @@ interface MainJSON {
     projects?: string
     posts?: string
     aboutMe?: string
+    resume: string
 }
 
 export async function loadModel(filename: string): Promise<Model> {
@@ -32,10 +35,12 @@ export async function loadModel(filename: string): Promise<Model> {
     if(mainJSON.projects) {
         projects = await loadProjects(path.join(path.dirname(filename), mainJSON.projects))
     }
+    let resume = await loadResume(path.join(path.dirname(filename), mainJSON.resume))
 
     return {
         aboutMe: aboutMe,
         projects: projects,
+        resume: resume,
         views: mainJSON.views.map(view => {
             return {
                 file: view[0],
