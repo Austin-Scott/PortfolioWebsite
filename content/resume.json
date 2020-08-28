@@ -5,9 +5,22 @@
             "content": [
                 {
                     "boldTitle": "UNIVERSITY OF WISCONSIN STOUT",
-                    "normalTitle": ", MENOMONIE WISCONSIN",
-                    "lightTitle": "GRADUATED SPRING 2020, GPA 3.57, IN-MAJOR GPA 3.60",
+                    "normalTitle": ", ABET ACCREDITED, MENOMONIE WI",
+                    "lightTitle": "GRADUATED SPRING 2020, GPA 3.58",
                     "description": "Bachelor of Science in Computer Science with math minor. "
+                }
+            ]
+        },
+        {
+            "name": "RELEVANT COURSES",
+            "content": [
+                {
+                    "boldTitle": "COMPUTER SCIENCE",
+                    "description": "Computer Science 1&2, Data Structures, Cyber Technology Ethics, Advanced Weband Internet Programming, Algorithms, Database Systems, Human ComputerInterfaces, Programming in Game Engines, Math Foundations of Computer Graphics,Computer Architecture, Mobile Development in Android, iOS, Software EngineeringPrinciples, Software Engineering Practicum, Systems Programming"
+                },
+                {
+                    "boldTitle": "MATHEMATICS",
+                    "description": "Calculus and Analytical Geometry 1&2, Calculus 3, Discrete Mathematics, LinearAlgebra, Numerical Analysis 1"
                 }
             ]
         },
@@ -32,7 +45,7 @@
                     "boldTitle": "SOFTWARE ENGINEER INTERN",
                     "normalTitle": " POINTCLICKCARE",
                     "lightTitle": "JUNE 2019 - AUGUST 2019",
-                    "description": "Here is where I am going to describe what I did and learned during my internship experience with PointClickCare. Here is some additional text just to increase the length of this example text here."
+                    "description": "Helped develop, maintain, and test a large iOS application written in Swift used forat-home senior care. Practiced Agile development working with a team composed of awide range of professions. Gained valuable experience learning how to learntechnologies and frameworks I had no previous experience using while still on the job."
                 }
             ]
         },
@@ -54,7 +67,7 @@
             "content": [
                 {
                     "boldTitle": "APPLIED MATH AND COMPUTER SCIENCE CLUB",
-                    "lightTitle": "SEPTEMBER 2017 - FEBRUARY 2020"
+                    "lightTitle": "SEPTEMBER 2017 - FEBRUARY 2020, FORMER CLUB PRESIDENT"
                 },
                 {
                     "boldTitle": "MAJOR LEAGUE HACKING",
