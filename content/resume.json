@@ -4,10 +4,9 @@
             "name": "EDUCATION",
             "content": [
                 {
-                    "boldTitle": "UNIVERSITY OF WISCONSIN STOUT",
-                    "normalTitle": ", ABET ACCREDITED, MENOMONIE WI",
-                    "lightTitle": "GRADUATED SPRING 2020, GPA 3.58",
-                    "description": "Bachelor of Science in Computer Science with math minor. "
+                    "boldTitle": "Bachelor of Science in Computer Science with a Math Minor",
+                    "normalTitle": ", May 2020",
+                    "description": "University of Wisconsin-Stout, ABET Accredited Program, GPA 3.58, Menomonie WI"
                 }
             ]
         },
@@ -15,11 +14,11 @@
             "name": "RELEVANT COURSES",
             "content": [
                 {
-                    "boldTitle": "COMPUTER SCIENCE",
+                    "boldTitle": "Computer Science",
                     "description": "Computer Science 1&2, Data Structures, Cyber Technology Ethics, Advanced Web and Internet Programming, Algorithms, Database Systems, Human Computer Interfaces, Programming in Game Engines, Math Foundations of Computer Graphics, Computer Architecture, Mobile Development in Android, iOS, Software Engineering Principles, Software Engineering Practicum, Systems Programming"
                 },
                 {
-                    "boldTitle": "MATHEMATICS",
+                    "boldTitle": "Mathematics",
                     "description": "Calculus and Analytical Geometry 1&2, Calculus 3, Discrete Mathematics, Linear Algebra, Numerical Analysis 1"
                 }
             ]
@@ -28,13 +27,12 @@
             "name": "HONORS AND AWARDS",
             "content": [
                 {
-                    "boldTitle": "GRADUATED WITH HONORS",
-                    "normalTitle": ", CUM LAUDE",
-                    "lightTitle": "SPRING 2020"
+                    "boldTitle": "Graduated With Honors",
+                    "normalTitle": " - Cum Laude"
                 },
                 {
-                    "boldTitle": "CHANCELLOR’S AWARD FOR ACADEMIC EXCELLENCE",
-                    "lightTitle": "FALL 2016, SPRING 2017, FALL 2017"
+                    "boldTitle": "Chancellor’s Award For Academic Excellence",
+                    "normalTitle": " - Fall 2016, Spring 2017, Fall 2017"
                 }
             ]
         },
@@ -42,10 +40,9 @@
             "name": "EXPERIENCE",
             "content": [
                 {
-                    "boldTitle": "SOFTWARE ENGINEER INTERN",
-                    "normalTitle": " POINTCLICKCARE",
-                    "lightTitle": "JUNE 2019 - AUGUST 2019",
-                    "description": "Helped develop, maintain, and test a large iOS application written in Swift used for at-home senior care. Practiced Agile development working with a team composed of a wide range of professions. Gained valuable experience learning how to learn technologies and frameworks I had no previous experience using while still on the job."
+                    "boldTitle": "Software Engineer Intern",
+                    "lightTitle": "PointClickCare, June 2019 - August 2019",
+                    "description": "Helped develop, maintain, and test a large iOS application written in Swift used for at-home senior care. Practiced Agile development working with a team composed of a wide range of professions. Gained valuable experience improving the large infrastructure of critical corporate software."
                 }
             ]
         },
@@ -53,11 +50,11 @@
             "name": "TECHNICAL SKILLS",
             "content": [
                 {
-                    "boldTitle": "LANGUAGES",
+                    "boldTitle": "Languages",
                     "description": "C++, TypeScript, JavaScript, C, Kotlin, Java, Swift, HTML/CSS, C#, Rust, Python, PHP"
                 },
                 {
-                    "boldTitle": "TOOLS",
+                    "boldTitle": "Tools",
                     "description": "React, Node.js, Android, iOS, AWS, Unity, Express, Linux, NumPy, jQuery, Bootstrap, Git, Docker"
                 }
             ]
@@ -66,13 +63,13 @@
             "name": "INVOLVEMENT",
             "content": [
                 {
-                    "boldTitle": "APPLIED MATH AND COMPUTER SCIENCE CLUB",
-                    "lightTitle": "SEPTEMBER 2017 - FEBRUARY 2020, FORMER CLUB PRESIDENT"
+                    "boldTitle": "Applied Math And Computer Science Club",
+                    "lightTitle": "September 2017 - February 2020, Served as President from 2019 to 2020."
                 },
                 {
-                    "boldTitle": "MAJOR LEAGUE HACKING",
-                    "normalTitle": " MINNEHACK",
-                    "lightTitle": "FEBRUARY 2019, FEBRUARY 2020"
+                    "boldTitle": "Minnehack",
+                    "normalTitle": " (Corporate Sponsored Coding Event)",
+                    "lightTitle": "February 2019, February 2020"
                 }
             ]
         },
@@ -80,19 +77,19 @@
             "name": "ADDITIONAL EXPERIENCE",
             "content": [
                 {
-                    "boldTitle": "RECEIVING ASSOCIATE",
-                    "normalTitle": " FLEET FARM",
-                    "lightTitle": "JULY 2018 - MAY 2019"
+                    "boldTitle": "Receiving Associate",
+                    "normalTitle": " Fleet Farm, Menomonie, WI",
+                    "lightTitle": "July 2018 - May 2019"
                 },
                 {
-                    "boldTitle": "UNIVERSITY DINING SERVICE",
-                    "normalTitle": " UW-STOUT COMMONS",
-                    "lightTitle": "SEPTEMBER 2017 - DECEMBER 2017"
+                    "boldTitle": "University Dining Services Employee",
+                    "normalTitle": ", UW-Stout Commons, Menomonie, WI",
+                    "lightTitle": "September 2017 - December 2017"
                 },
                 {
-                    "boldTitle": "PACKAGE HANDLER",
-                    "normalTitle": " FEDERAL EXPRESS",
-                    "lightTitle": "AUGUST 2016 - JANUARY 2017"
+                    "boldTitle": "Package Handler",
+                    "normalTitle": " Federal Express Shipping Center, Eau Claire, WI",
+                    "lightTitle": "August 2016 - January 2017"
                 }
             ]
         }
